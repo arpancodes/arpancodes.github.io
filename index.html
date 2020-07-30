@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Dennis Ivy</title>
-
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"
     />
-
     <link
       href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
       rel="stylesheet"
@@ -234,16 +231,16 @@
           <a name="contact"></a>
 
           <label>Name</label>
-          <input class="input-field" type="text" name="name" />
+          <input required class="input-field" type="text" name="name" />
 
           <label>Subject</label>
-          <input class="input-field" type="text" name="subject" />
+          <input required class="input-field" type="text" name="subject" />
 
           <label>Email</label>
-          <input class="input-field" type="text" name="email" />
+          <input required class="input-field" type="text" name="email" />
 
           <label>Message</label>
-          <textarea class="input-field" name="message"></textarea>
+          <textarea required class="input-field" name="message"></textarea>
 
           <input id="submit-btn" type="submit" value="Send" />
         </form>
